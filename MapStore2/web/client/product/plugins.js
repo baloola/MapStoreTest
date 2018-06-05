@@ -27,7 +27,6 @@ module.exports = {
         LocatePlugin: require('../plugins/Locate'),
         ZoomInPlugin: require('../plugins/ZoomIn'),
         ZoomOutPlugin: require('../plugins/ZoomOut'),
-        ZoomAllPlugin: require('../plugins/ZoomAll'),
         FullScreenPlugin: require('../plugins/FullScreen'),
         MapLoadingPlugin: require('../plugins/MapLoading'),
         AboutPlugin: require('./plugins/About'),
@@ -88,10 +87,10 @@ module.exports = {
         TOCItemsSettingsPlugin: require('../plugins/TOCItemsSettings'),
         RulesDataGridPlugin: require('../plugins/RulesDataGrid'),
         RulesManagerFooter: require('../plugins/RulesManagerFooter'),
-        FeaturedMaps: require('../plugins/FeaturedMaps'),
         NavMenu: require('./plugins/NavMenu'),
         RulesEditorPlugin: require('../plugins/RulesEditor'),
-        FloatingLegendPlugin: require('../plugins/FloatingLegend')
+        FloatingLegendPlugin: require('../plugins/FloatingLegend'),
+        HelloWorldPlugin: require('../plugins/HelloWorld')
     },
     requires: {
         ReactSwipe: require('react-swipeable-views').default,

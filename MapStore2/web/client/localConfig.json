@@ -328,7 +328,14 @@
                   "alwaysVisible": true
                 }
               }
-            }, {
+            },  {
+                "name":"HelloWorld",
+                "override": {
+                  "Toolbar": {
+                    "alwaysVisible": true
+                  }
+                }
+              },{
                 "name": "MapLoading",
                 "override": {
                     "Toolbar": {
