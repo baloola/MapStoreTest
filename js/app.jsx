@@ -20,7 +20,6 @@ ConfigUtils.setConfigProp('themePrefix', 'MapStoreTest');
  *
  * ConfigUtils.setLocalConfigurationFile('localConfig.json');
  */
-// ConfigUtils.setLocalConfigurationFile('MapStore2/web/client/localConfig.json');
 ConfigUtils.setLocalConfigurationFile('localConfig.json');
 
 /**
