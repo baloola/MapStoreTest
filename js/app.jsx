@@ -20,7 +20,8 @@ ConfigUtils.setConfigProp('themePrefix', 'MapStoreTest');
  *
  * ConfigUtils.setLocalConfigurationFile('localConfig.json');
  */
-ConfigUtils.setLocalConfigurationFile('MapStore2/web/client/localConfig.json');
+// ConfigUtils.setLocalConfigurationFile('MapStore2/web/client/localConfig.json');
+ConfigUtils.setLocalConfigurationFile('localConfig.json');
 
 /**
  * Use a custom application configuration file with:
@@ -44,6 +45,6 @@ const appConfig = require('../MapStore2/web/client/product/appConfig');
  *
  * const plugins = require('./plugins');
  */
-const plugins = require('../MapStore2/web/client/product/plugins');
+const plugins = require('../plugins');
 
 require('../MapStore2/web/client/product/main')(appConfig, plugins);

@@ -6,7 +6,7 @@ const assign = require('object-assign');
 
 const HelloWorld = connect((state) => ({
     zoom: state.map && state.map.present.zoom
-}))(require('../components/HelloWorld/HelloWorld'));
+}))(require('./components/HelloWorld/HelloWorld'));
 
 
 

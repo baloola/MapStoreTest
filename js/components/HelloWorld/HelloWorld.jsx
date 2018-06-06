@@ -1,7 +1,7 @@
 var React = require('react');
 
 var PropTypes = require('prop-types');
-require("./css/HelloWorld.css");
+require("../../../assets/css/HelloWorld.css");
 
 
 class HelloWorld extends React.Component {
